@@ -1,0 +1,207 @@
+		body, html {
+				font-size: small;
+				background: #fff;
+				color: #222;
+				font-family: arial,sans-serif;
+					}
+
+		header {
+			  position: absolute;
+			  top: 12px;
+			  right: 0;
+		 }
+		  
+		#navbar {
+				float: right;
+				position: relative;
+				padding: 0 30px;
+				font-size: 13px;
+				line-height: 24px;
+				display: flex;
+				display: -webkit-flex;
+				-webkit-order: 1;
+				order: 1;
+				z-index: 987;
+		}
+		
+		ul {
+			float: right;
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			
+		}
+		
+		li {
+			display: inline-block;
+			padding-left: 15px;
+		}
+		
+		a {
+			color: #404040;
+			text-decoration: none;
+			 font-family: arial,sans-serif;
+
+		}
+		
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		a:visited {
+		  color: #609;
+		}
+		
+		.right {
+			  -webkit-flex: 0 1 auto;
+			  flex: 0 1 auto;
+			  -webkit-flex: 0 1 main-size;
+			  flex: 0 1 main-size;
+		}
+		.apps {
+		  background-image: url('https://ssl.gstatic.com/gb/images/i1_71651352.png');
+		  background-position: -320px -55px;
+		  opacity: .55;
+		  -webkit-background-size: 356px 144px;
+		  background-size: 356px 144px;
+		  display: inline-block;
+		  outline: none;
+		  vertical-align: middle;
+		  -webkit-border-radius: 2px;
+		  border-radius: 2px;
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		  height: 30px;
+		  width: 30px;
+		}
+		
+		.apps:hover {
+		  opacity: .90;
+		}
+		
+		.sign {
+		  border: 1px solid #4285f4;
+		  font-weight: bold;
+		  outline: none;
+		  background: #4285f4;
+		  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+		  background: linear-gradient(top,#4387fd,#4683ea);
+		  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+		  display: inline-block;
+		  line-height: 28px;
+		  padding: 0 12px;
+		  -webkit-border-radius: 2px;
+		  border-radius: 2px;
+		  position: relative;
+		  vertical-align: middle;
+		  margin-left: 15px;
+		  color: #fff;
+		}
+		
+		.content {
+		  padding-bottom: 35px;
+		  margin: 0 auto;
+		  min-width: 980px;
+		}
+		
+		#body {
+		padding-top:112px;
+		margin-top: 80px;
+		}
+		
+				
+		.gImg {
+			height:100px;
+			background: url("https://www.google.com.bd/images/srpr/logo11w.png") no-repeat;
+			background-size: 269px 95px;
+			width: 269px;
+		}
+		
+		.searchForm {
+		  
+		  margin: -1px 0 0;
+		  line-height: 0;
+		  max-width: 650px;
+		  overflow: visible;
+		  white-space: nowrap;
+		}
+		.mic {
+		    background: url(http://i.imgur.com/XNjmRom.gif?1) no-repeat 97%;
+			background-size: 14px 19px;
+			opacity: 0.6;
+		  }  
+		
+		.mic:hover {
+		    opacity: 0.8;
+		  }
+		
+		input[type=text] {
+			  font-size: 15px;
+			  font-weight: bold;
+			  padding: 0 0 0 4px;
+			  display: inline-block;
+			  float: left;
+			  width: 603px;
+			  height: 27px;
+			  border: 1px solid #b8b8b8;
+			  
+			  }
+input[type="submit"] {
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  -webkit-border-radius: 2px;
+  -webkit-user-select: none;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+  border: 1px solid #dcdcdc;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  color: #444;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 11px 8px;
+  min-width: 54px;
+  padding: 0 8px;
+  text-align: center;
+  height: 29px;
+  line-height: 27px;
+}
+
+#footer {
+  bottom: 0;
+  font-size: 10pt;
+  height: 35px;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+ #footer a {
+  display: inline-block;
+   color: #666;
+   padding-left: 27px;
+   margin: 0 !important;
+   
+}
+.btm {
+    margin: 0 auto;
+    min-width: 980px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+   font-size: small;
+}
+#fr { 
+  margin-right: 30px;
+  float: right;
+  white-space: nowrap;
+}
+
+#fl { 
+  margin-left: 30px;
+  white-space: nowrap;
+}
