@@ -1,7 +1,6 @@
 # google-homepage
-the_odin_projece: HTML/CSS
 
-Just done my my first HTML/CSS project inspired by The Odin Project.
+Just done my first HTML/CSS project inspired by [The Odin Project](http://www.theodinproject.com/web-development-101/html-css).
 
 Check it...
 
