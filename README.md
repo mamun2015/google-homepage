@@ -1,5 +1,7 @@
 # google-homepage
 the_odin_projece: HTML/CSS
 
-//project start from 15 April 2015
+Just done my my first HTML/CSS project inspired by The Odin Project.
+
+Check it...
 
